@@ -60,7 +60,7 @@ var server = http.createServer(function(req, res) {
 })
 
 // listen on a port, and then the action begins!
-server.listen(8080)
+server.listen(1337)
 ```
 
 Now we have only to start our ball rolling!
@@ -69,7 +69,7 @@ Now we have only to start our ball rolling!
 node server.js
 ```
 
-Point your webitrix browseratron at <http://localhost:8080/static/> and
+Point your webitrix browseratron at <http://localhost:1337/static/> and
 you'll see all manner of static files!
 
 If you'd like to show the `index.html` file by default, instead of an
@@ -98,6 +98,8 @@ Then cd into the folder you want to serve, and type:
 ```
 st
 ```
+
+It listens on port 1337, just like the example above.
 
 I CANNOT MAKE IT ANY FEWER CHARACTERS, BECAUSE ALL THE ONE-LETTER npm
 NAMES ARE TAKEN.
