@@ -1,0 +1,15 @@
+h1::before {
+  color: red;
+  display: block;
+  float: right;
+  font-size: 200%;
+  font-weight: bold;
+  content: "foo"
+}
+
+p {
+  height:500px;
+  background: url(/static/static.gif);
+  font-size:200%;
+  font-weight:bold;
+}
