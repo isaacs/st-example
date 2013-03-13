@@ -2,9 +2,9 @@ This is how to serve static files using Node.
 
 It's really easy.
 
-I'm going to use the `st` module.
+I'm going to use the [st](http://github.com/isaacs/st) module.
 
-First, install st:
+First, install [st](http://github.com/isaacs/st):
 
 ```
 $ npm install st -q
@@ -69,7 +69,7 @@ Now we have only to start our ball rolling!
 node server.js
 ```
 
-Point your webitrix browseratron at http://localhost:8080/static/ and
+Point your webitrix browseratron at <http://localhost:8080/static/> and
 you'll see all manner of static files!
 
 If you'd like to show the `index.html` file by default, instead of an
